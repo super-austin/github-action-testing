@@ -14,8 +14,7 @@ on:
         type: choice
         description: Stage you wish to deploy
         options:
-          - staging
-          - production
+          - stage
 
 jobs:
   deploy:
