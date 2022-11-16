@@ -26,3 +26,5 @@ jobs:
         with:
           node-version: "16.x"
       - run: echo "github action is running well."
+      - run: yarn install
+      - run: yarn deploy
