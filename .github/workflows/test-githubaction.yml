@@ -1,0 +1,29 @@
+name: Frontend Deploy
+
+on:
+  push:
+    branches:
+      - "*"
+      - "!master"
+    paths:
+      - "./**"
+      - ".github/workflows/frontend.autodeploy.yml"
+  workflow_dispatch:
+    inputs:
+      stage:
+        type: choice
+        description: Stage you wish to deploy
+        options:
+          - staging
+          - production
+
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "16.x"
+      - run: echo "github action is running well."
