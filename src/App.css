@@ -1,0 +1,138 @@
+body {
+    margin: 0px;
+}
+
+@font-face {
+    font-family: "MonumentExtended";
+    src: url(./assets/fonts/MonumentExtended-Regular.otf);
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(./assets/fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url(./assets/fonts/OpenSans-Regular.ttf);
+}
+
+[role="tabpanel"] > div {
+    padding: 0px;
+}
+
+.MuiTab-fullWidth.MuiTab-textColorPrimary:nth-of-type(1) {
+    background-color: #8d45ff;
+    color: white;
+    font-size: 20px;
+    font-family: "MonumentExtended";
+    height: 74px;
+}
+
+.MuiTab-fullWidth.MuiTab-textColorPrimary:nth-of-type(2) {
+    background-color: #222222;
+    color: white;
+    font-size: 20px;
+    font-family: "MonumentExtended";
+}
+
+.MuiTab-fullWidth.MuiTab-textColorPrimary:nth-of-type(3) {
+    background-color: #131227;
+    color: white;
+    font-size: 20px;
+    font-family: "MonumentExtended";
+}
+
+.MuiTabs-indicator {
+    height: 0px;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+    display: -webkit-inline-box;
+    width: 100%;
+}
+a.nearLink {
+    text-decoration: none;
+    display: block;
+}
+a.signInLink {
+    text-decoration: none;
+    display: initial;
+}
+a.accountLink {
+    display: flex;
+    justify-content: center;
+    background: #4d20b4;
+    min-height: 48px;
+    max-width: 283px;
+    clip-path: polygon(0% 100%, 0% 0%, 100% 0%, 90% 100%);
+}
+.icon-Drops:before {
+    content: "\e909";
+    color: #fff;
+}
+.icon-Games:before {
+    content: "\e90a";
+    color: #fff;
+}
+.icon-Launchpad:before {
+    content: "\e90b";
+    color: #fff;
+}
+.icon-Marketplace:before {
+    content: "\e90c";
+    color: #fff;
+}
+.icon-My-Collections:before {
+    content: "\e90d";
+    color: #fff;
+}
+.icon-My-DAOs:before {
+    content: "\e90e";
+    color: #fff;
+}
+.icon-My-Games:before {
+    content: "\e90f";
+    color: #fff;
+}
+.icon-Profile:before {
+    content: "\e910";
+    color: #fff;
+}
+.icon-Continue-Playing:before {
+    content: "\e900";
+    color: #fff;
+}
+.icon-Drops1:before {
+    content: "\e901";
+    color: #fff;
+}
+.icon-games:before {
+    content: "\e902";
+    color: #fff;
+}
+.icon-Launchpad1:before {
+    content: "\e903";
+    color: #fff;
+}
+.icon-Marketplace1:before {
+    content: "\e904";
+    color: #fff;
+}
+.icon-My-Collectibles:before {
+    content: "\e905";
+    color: #fff;
+}
+.icon-My-DAOs1:before {
+    content: "\e906";
+    color: #fff;
+}
+.icon-My-Games1:before {
+    content: "\e907";
+    color: #fff;
+}
+.icon-Profilesvg:before {
+    content: "\e908";
+    color: #fff;
+}

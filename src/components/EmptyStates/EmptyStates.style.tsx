@@ -1,0 +1,87 @@
+// Styles used in the component
+export const styles = {
+    emptyStatesCard: {
+        textAlign: "center",
+        position: "relative",
+        padding: "0",
+        marginBottom: "30px",
+    },
+    emptyStatesCardInner: {
+        padding: "30px",
+        paddingBottom: "0",
+        "&:before": {
+            content: `""`,
+            position: "absolute",
+            width: "148px",
+            height: "101px",
+            left: "0",
+            top: "0",
+            background: "var(--purple-dark)",
+            mixBlendMode: "lighten",
+            opacity: "0.7",
+            filter: "blur(106px)",
+            transform: "matrix(-0.72, 0.41, 1.12, 0.74, 0, 0)",
+            zIndex: "-1",
+        },
+        "&:after": {
+            content: `""`,
+            position: "absolute",
+            width: "173px",
+            height: "118px",
+            right: "0",
+            top: "0",
+            background: "var(--purple-dark)",
+            mixBlendMode: "lighten",
+            opacity: "0.7",
+            filter: "blur(106px)",
+            transform: "matrix(-0.72, 0.41, 1.12, 0.74, 0, 0)",
+            zIndex: "-1",
+        },
+    },
+    emptyStatesIcon: {
+        position: "relative",
+        marginBottom: "5px",
+        "&:after": {
+            content: `""`,
+        },
+    },
+    emptyStatesTitle: {
+        margin: "4px 0px 8px 0px",
+        fontWeight: "700",
+        fontSize: "25px",
+        lineHeight: "32px",
+    },
+    emptyStatesContent: {
+        fontSize: "14px",
+        lineHeight: "21px",
+        opacity: "0.7",
+        marginBottom: "50px",
+    },
+    emptyStatesGraphic: {
+        position: "relative",
+        "&:before": {
+            content: `""`,
+            position: "absolute",
+            width: "148px",
+            height: "101px",
+            left: "45%",
+            bottom: "0",
+            background: "var(--purple-dark)",
+            mixBlendMode: "lighten",
+            opacity: "0.7",
+            filter: "blur(106px)",
+            transform: "matrix(-0.72, 0.41, 1.12, 0.74, 0, 0)",
+            zIndex: "-1",
+        },
+        "& img": {
+            maxWidth: "100%",
+        },
+    },
+    emptyStateTitleCapital: {
+        textAlign: "center",
+        fontSize: "12px",
+        lineHeight: "25px",
+        textTransform: "uppercase",
+        marginBottom: "30px"
+    },
+};

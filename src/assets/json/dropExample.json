@@ -1,0 +1,78 @@
+{
+    "name": "test-95",
+    "drop_id": "test-95",
+    "description": "test description",
+    "drop_start_block": 94500000,
+    "drop_end_block": 94510000,
+    "game_name": "test game",
+    "whitelists": [
+        {
+            "group_name": "Holders",
+            "starts_at": 1657909222126,
+            "ends_at": 1658341222126,
+            "price": 5,
+            "multiple_purchase": true,
+            "max_purchase_per_user": 3,
+            "drop_id": "test-95",
+            "whitelist_start_block": 94500000,
+            "whitelist_end_block": 94510000
+        },
+        {
+            "group_name": "Whitelist",
+            "starts_at": 1657909222126,
+            "ends_at": 1658341222126,
+            "price": 5,
+            "multiple_purchase": true,
+            "max_purchase_per_user": 3,
+            "drop_id": "test-95",
+            "whitelist_start_block": 94500000,
+            "whitelist_end_block": 94510000
+        },
+        {
+            "group_name": "Public",
+            "starts_at": 1657909222126,
+            "ends_at": 1658341222126,
+            "price": 5,
+            "multiple_purchase": true,
+            "max_purchase_per_user": 3,
+            "drop_id": "test-95",
+            "whitelist_start_block": 94500000,
+            "whitelist_end_block": 94510000
+        }
+    ],
+    "nfts": [
+        {
+            "token_id": "Anubix",
+            "game_id": "Test game",
+            "title": "Anubix",
+            "description": "",
+            "media": "https://s3-alpha-sig.figma.com/img/1ead/0e00/6aa635a3bf9877530c0285e00f4a4b2d?Expires=1658102400&Signature=T6UBUjKJ8QnzqyQuL40JTQFQK0lC01cSGBZPXVSwJx8Satc2oLta8FL7AkVpt47ek1uoNIanHdOr75lrca2YivTisLBcrYKX49N8yskijq3ljfp~jGMZFN4o1ThpjkNXlclv73UDY3CPTG5uGJyfCfz196I~LJ-TvfxOgxMmwSCDprrBV35Ua3xEbDL4tVAXaWV7f2IjGGNIgq3Pq2YjmIAtbMtNYl10lmIEkeX8nsNrDRXgnU5tNQyKO3k67XTswMis6cLQieC9nqtblzsPiuRafIL2Ae5nF2r9hq2TbjtunmgLHn82IgLGE996ZpHgC0o5k8MRfPwd~A8sCSWC-w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+            "collection_name": "Metamon"
+        },
+        {
+            "token_id": "Thunder",
+            "game_id": "Test game",
+            "title": "Thunder",
+            "description": "",
+            "media": "https://s3-alpha-sig.figma.com/img/1b03/5946/5643f390bd90a886c00a66fa720fc2f9?Expires=1658102400&Signature=ZOUtDD5s05PAD3DjxR~nn5ONBlXT5hWVtTxWQcHBcOVFWAvcHRFiRL8NKPymaYgFNOAjW5CHgMCCXS8qUyWudncgVzN0ViPcXVXS97WSNfFJfjtunpNhVChkhGu08kwBGPt4yWtrOIgwu3z8iYdirYcKx6uirp1Gdm1cIRcpctZ-9vWmcJmOiN5oKit7ZqjItwiA08thF46FVzcg9UsJ6YJ0h04PvMhH15nYkCpHEipxtUPu3b5aZ3Nu15budIbJlYd~I1Ao9nnKMHMU0aqFxKFHNI2abOgC-4mqEL4~pL-ysecWTRQ-fHJE8OWyIig0I~0PXPSr-P3VHwT5V14c~A__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+            "collection_name": "Metamon"
+        },
+        {
+            "token_id": "Punk",
+            "game_id": "Test game",
+            "title": "Punk",
+            "description": "",
+            "media": "https://s3-alpha-sig.figma.com/img/ded4/961d/cb9036ba61a0f3be00a3c58d39744868?Expires=1658102400&Signature=fz~npDldrUXKp38gnrkYc~AtbFHRAP5OoMMQMDmGevsOvJdOgx-oaBmgQvBwuv~orUALW0CN8-cgqX-ucMZjNC4c6H7l6-9QvCNJlegVETOcXntBm06JHb0fXvld4WNrenk9Je20m3w6OmVljhghaNujcl4FMR8oYP5EhX2Jvt0Ow-85XeJZxqUbcCYXgyaz8rhu9VaXoVU3ZNau8PYf1tbkUtHscTEj3xYyRSIiOnUD0W8G2f5WM43D9-F9RUhYiMQEACBgFnfXLJtiiEy569jY1nPg-gErKTBytRWv8nI4EdG3B8zM6XjHEak0fM-pNCOlJYo7HWplpRb49DfAPw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+            "collection_name": "Metamon"
+        },
+        {
+            "token_id": "Skull",
+            "game_id": "Test game",
+            "title": "Skull",
+            "description": "",
+            "media": "https://s3-alpha-sig.figma.com/img/de74/8d85/62a57d51651d7e4a46cbc4e7c3ad86a4?Expires=1658102400&Signature=Rhi9-e~y-vO3~8TVEjROn-WwAktOMtUrERW7CJo6uD6mr48HkndB1RX~70AOsq05BXY7Ve-1DQsQCRTlz6U~NGUUvfcb7Nn8RPf1OiXAVpj52oq19xvrMAIiz29QnkMWbyiN0IKvXewtvMvK0a-nB8m13CPZtf9h1nm5KW8phFo0XU0f28JlTKaNxS~HAfOSBQPQepB4loWcz0M4GUYgGgIGCqMpg5hSl~lj54YVwvLBL4mafiSE~bCypk-MNS2hnZtZRb3c36Rls9VRIV8Z09Y5lbQ1Fg1WfZDJBMSmwFfAPTusrRULNB4O~dTDRlF9SrDv7ewgmpXWYxvNkol2-g__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+            "collection_name": "Metamon"
+        }
+    ],
+    "token_ids": []
+}

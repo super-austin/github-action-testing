@@ -1,0 +1,199 @@
+/* ==========================================================================
+                                1. Global CSS
+============================================================================ */
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/plus-jakarta-display.min.css");
+
+:root {    
+    --font-primary: 'Plus Jakarta Display';
+
+    --color-primary: ;
+    --white-color: #ffffff;
+    --btn-white-text: #D4D5DE;
+    --black-dark-1: #4B4C56;
+    --black-dark-2: #222325;
+    --black-dark-3: #282828;
+    --black-dark-4: #363636;
+    --label-color: #dddddd;
+    --gray-light-1: #D0D0D0;
+    --gray-light-2: #6C6C6C;
+    --gray-light-3: #C4C4C4;    
+    --menu-color-grey: #BBBABA;
+    --purple-light: #6C5DD3;
+    --purple-dark: #6568FF;
+    --green-primary: #85FFA0;
+    --blue-dark: #161619;
+    --blue-primary: #2BB2FE;
+    --pink-primary: #FF7FE3;
+    --social-icon-bg: #303030;
+    --btn-primary-hover: #0094E8;
+    --cyan-primary: #79CFFF;
+    --stats-modal-dark-bg: rgba(10, 10, 10, 0.3);
+
+    --body-bg-dark: #1B1A1A;
+    --input-bg-dark: rgba(34, 34, 36, 0.3);
+    --card-bg-dark: rgba(34, 34, 36, 1);
+    --card-body-bg-dark: rgba(34, 34, 36, 0.66);
+    --tag-bg-primary: rgba(102, 102, 102, 0.3);
+    --card-icon-bg-primary: rgba(217, 217, 217, 0.1);
+    --card-icon-border-primary: rgba(255, 255, 255, 0.1);
+    --thead-text: rgba(255, 255, 255, 0.7);
+    --text-shadow-primary: 0px 0px 4px #3AB8FF;
+    --table-border: rgba(54, 54, 54, 1);
+    --social-icon-boder: 1px solid #272727;
+    --tag-border: 1px solid #363636;
+
+    --gradient-primary: linear-gradient(93.22deg, #00D1FF 1.73%, #3AB8FF 103.54%);
+    --gradient-secondary: linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05)), radial-gradient(134.38% 630.85% at -12.5% 109.72%, #35383C 0%, rgba(0, 0, 0, 0) 100%);
+    --gradient-blue-border: linear-gradient(308.42deg, #3FC2EA 48.71%, #FDEFFA 112.5%, #C2FFFF 112.5%);
+    --gradient-blue-border-1: linear-gradient(92.65deg, #9A9A9C 2.21%, #8869C0 30.8%, #3FC2EA 56.47%, #C2FFFF 76.89%, #FFFFFF 106.06%);
+    --gradient-pink-border: linear-gradient(308.42deg, #FF7FE3 48.71%, #FDEFFA 112.5%);
+    --gradient-green-border: linear-gradient(308.42deg, #85FFA0 48.71%, #FDEFFA 112.5%, #CEFFD9 112.5%);
+    --gradient-green-tabs: linear-gradient(107.29deg, #B6FFF2 -10.88%, #1ED29C 63.93%);
+    --gradient-dark-border: linear-gradient(180deg, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+    --gradient-dark-border-2: linear-gradient(104.39deg, rgba(255, 255, 255, 0.33) -1.72%, rgba(255, 255, 255, 0) 101.54%);
+    --gradient-light-border: linear-gradient(167.03deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%);
+    --border-gradient-gray: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    --black-light-gradient: linear-gradient(180deg, rgba(34, 34, 36, 0.58) 0%, #222224 100%);
+    --black-dark-gradient: linear-gradient(91.03deg, #1B1A1A 23.01%, #1B1A1A 57.36%);
+    --mask-gradient-primary: linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);
+    --glass-gradient-primary: linear-gradient(180deg, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%),
+    linear-gradient(0deg, rgba(34, 34, 36, 0.3), rgba(34, 34, 36, 0.3));
+    --gradient-purple-shade-1: linear-gradient(138.26deg, #6A76FF 23.58%, #5C1979 48.58%);
+    --gradient-blue-shade-1: linear-gradient(64.66deg, #3FC2EA 56.36%, #6568FF 87.54%);
+    --setting-icon-dark: linear-gradient(249.9deg, rgba(255, 255, 255, 0.08) -24.77%, rgba(255, 255, 255, 0) 105.99%);
+    --switch-on-bg: #08684B;
+    --switch-off-bg: #2E2F94;
+    --radio-bg: #333336;
+
+    --box-shadow-primary: 0px 0px 4px #00D1FF;
+    --box-shadow-primary-big: 10px 0px 20px #3FC2EA;
+    --box-shadow-green: 3px 0px 18px rgba(81, 233, 124, 0.8);
+    --line-box-shadow-green: 3px 0px 18px #85FFA0;
+    --line-box-shadow-pink: 3px 0px 18px #FF92AD;
+    --line-box-shadow-purple: 3px 0px 18px #6C5DD3;
+    --input-box-shadow-light: 0px 19px 68px #151517;
+    --text-shadow-primary: 0px 0px 10px #3FC2EA;
+    --video-blur-bg: radial-gradient(50% 50% at 50% 50%, rgba(22, 22, 25, 0) 0%, #161619 100%);
+    --searchbar-bg-dark: #222224;
+
+    --f-card-shadow-purple: rgba(123, 47, 217, 0.77);
+    --f-card-shadow-green: rgba(133, 255, 160, 0.39);
+    --f-card-shadow-blue: rgba(61, 80, 255, 0.47);
+    --f-card-shadow-pink: rgba(255, 61, 247, 0.57);
+
+    // Dashboard page gradients
+    --page-gradient-blue-1: linear-gradient(93.22deg, #0047FF 1.73%, #3AB8FF 103.54%);
+    --page-gradient-blue-2: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(90deg, #8E59FF 0%, #38F9D7 100%);
+    --page-gradient-pink-1: linear-gradient(124.87deg, #6A76FF -39.74%, #FF5894 23.02%);
+    --page-gradient-green-1: linear-gradient(93.6deg, #6C5DD3 1.7%, #1DFFBB 78.58%);
+    --page-gradient-blue-dark: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(90deg, #8E59FF 0%, #38F9D7 100%);
+
+    // Progress bars styles
+    --progress-purple-bg: rgba(101, 104, 255, 0.5);
+    --progress-purple-line: #6568FF;
+    --progress-purple-shadow: 3px 0px 10px #5356FC;
+
+    --progress-green-bg: #08684B;
+    --progress-green-line: #85FFA0;
+    --progress-green-shadow: 3px 0px 10px rgba(133, 255, 160, 0.5);
+
+    --progress-pink-bg: #600868;
+    --progress-pink-line: #FF7FE3;
+    --progress-pink-shadow: 3px 0px 10px rgba(255, 61, 247, 0.5);
+
+    --progress-blue-bg: rgba(58, 184, 255, 0.3);
+    --progress-blue-line: linear-gradient(93.22deg, #00D1FF 1.73%, #3AB8FF 103.54%);
+    --progress-blue-shadow: 3px 0px 10px #5356FC;
+}
+
+body {
+    font-family: var(--font-primary);
+    font-weight: 400;
+    font-size: 14px;
+    overflow-x: hidden;
+}
+h1, h2, h3, h4, h5, h6 p {
+    font-family: var(--font-primary);
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+label {
+    cursor: auto;
+}
+
+
+/* ==========================================================================
+                                2. Slick slider custom design
+============================================================================ */
+.slick-slider {
+    .slick-arrow {
+        background: url("../../../assets/svg/gameDetail/slide-prev-blue.svg") no-repeat, var(--input-bg-dark);
+        background-size: 20px;
+        background-position: center;
+        width: 28px;
+        height: 28px;
+        min-width: auto;
+        border-radius: 50px !important;
+        padding: 0px !important;
+        cursor: pointer;
+        left: 0;
+        top: 0;
+        backdrop-filter: blur(213px);
+        color: var(--white-color);
+        z-index: 5;
+        &::before {
+            border-radius: 50px !important;
+            content: "";
+            position: absolute;
+            inset: 0;
+            padding: 1px;
+            background: var(--gradient-dark-border);
+            mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+                    mask-composite: exclude;
+            z-index: -1;
+        }
+        &.slick-next {
+            background: url("../../../assets/svg/gameDetail/slide-next-blue.svg") no-repeat, var(--input-bg-dark);
+            background-size: 20px;
+            background-position: center;
+            right: 0;
+            left: auto;
+        }
+        &.slick-prev {
+            background: url("../../../assets/svg/gameDetail/slide-prev-blue.svg") no-repeat, var(--input-bg-dark);
+            background-size: 20px;
+            background-position: center;
+            left: auto;
+            right: 25px;
+        }
+    }
+    .slick-dots {
+        li {
+            width: 7px;
+            height: 7px;
+            button {
+                width: 7px;
+                height: 7px;
+                border-radius: 50px;
+                background: var(--gradient-primary);
+                transition: 0.3s all ease-in;
+                &::before {
+                    display: none;
+                }
+            }
+            &.slick-active {
+                button {
+                    width: 27px;
+                }
+            }
+        }
+    }
+}
