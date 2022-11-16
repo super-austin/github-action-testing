@@ -1,20 +1,16 @@
 name: Frontend Deploy
 
 on:
-  push:
+  pull_request:
     branches:
-      - "*"
-      - "!master"
-    paths:
-      - "./**"
-      - ".github/workflows/frontend.autodeploy.yml"
+    - main
   workflow_dispatch:
     inputs:
       stage:
         type: choice
-        description: Stage you wish to deploy
+        description: Deploy mannually
         options:
-          - stage
+          - Mannual Deploy
 
 jobs:
   deploy:
@@ -25,6 +21,5 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: "16.x"
-      - run: echo "github action is running well."
       - run: yarn install
       - run: yarn deploy
